@@ -9,7 +9,7 @@ O barbeiro (admin) possui acesso a uma área exclusiva, onde pode definir os hor
 ## ⚙️ Status do Projeto
 
 > 🚧 **Em desenvolvimento**  
-Até o momento, foi gerada apenas a estrutura inicial da aplicação, utilizando o [Spring Initializr](https://start.spring.io/) como base. O projeto ainda não possui funcionalidades implementadas, mas está pronto para iniciar a construção dos módulos principais.
+A estrutura básica do backend foi iniciada com a criação das entidades que representam os principais elementos do sistema, como clientes, serviços oferecidos e agendamentos. Também foram implementados os repositórios para permitir a persistência de dados no banco e adicionada a dependência do Swagger, que será utilizada futuramente para documentar os endpoints da API.
 
 ---
 
@@ -26,7 +26,7 @@ A aplicação está sendo construída com:
 - **Lombok** – para reduzir boilerplate no código
 - **Spring Boot DevTools** – para facilitar o desenvolvimento com hot reload
 - **Spring Boot Starter Test** – para testes unitários e de integração
-
+- **Springdoc OpenAPI (Swagger)** – para geração automática da documentação da API
 ---
 
 ## 🗄️ Banco de Dados
